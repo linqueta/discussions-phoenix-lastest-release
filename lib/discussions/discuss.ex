@@ -8,6 +8,14 @@ defmodule Discussions.Discuss do
 
   alias Discussions.Discuss.Topic
 
+  def upvote_comment(comment_id) do
+
+  end
+
+  def favorite_comment(user_id, comment_id) do
+
+  end
+
   @doc """
   Returns the list of topics.
 

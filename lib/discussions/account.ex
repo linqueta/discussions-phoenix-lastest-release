@@ -8,6 +8,18 @@ defmodule Discussions.Account do
 
   alias Discussions.Account.User
 
+  def update_account_settings() do
+
+  end
+
+  def reset_password(user_id) do
+
+  end
+
+  def deactivate_account(user_id) do
+
+  end
+
   @doc """
   Returns the list of users.
 
