@@ -19,6 +19,7 @@ defmodule DiscussionsWeb.Router do
     get "/", PageController, :index
     resources "/users", UserController
     resources "/topics", TopicController
+    resources "/comments", CommentController
   end
 
   # Other scopes may use custom stacks.
