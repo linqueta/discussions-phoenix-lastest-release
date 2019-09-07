@@ -2,8 +2,8 @@ use Mix.Config
 
 # Configure your database
 config :discussions, Discussions.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "linqueta",
+  password: "linqueta",
   database: "discussions_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
